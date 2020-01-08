@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+header div {
+    background: #FFF;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+#menu-home {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#menu-home li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0px 25px;
+    color: #2F2E2E;
+    list-style: none;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 20px;
+    line-height: 31px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    flex: 1 0 0;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(../img/bghome.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+
+.home img {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    color: #2F2E2E;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    top: 250px;
+    left: 450px;
+
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    font-size: 1.5em;
+}
+
+.title h1 {
+    font-family: 'Fredericka the Great', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.title h2 {
+    font-family: 'EB Garamond', serif;
+    margin: 0px;
+    padding: 0px;
+}
+#man-ped {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.precos {
+    display: flex;
+    position: relative;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+.precos table {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.precos td {
+    padding-right: 20px;
+    font-family: raleway, sans-serif;
+    color: #8F8F8F;
+}
+
+.precos th {
+    font-size: 30px;
+    font-family: raleway, sans-serif;
+    padding-bottom: 15px;
+    color: #605E5E;
+}
+
+#man-ped img {
+    display: flex;
+    width: 70%;
+    height: 660px;
+}
+
+#design-sob {
+    display: flex;
+    position: relative;
+    text-align: justify;
+    align-items: center;
+    background-image: url(../img/sobrancelha.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+#design-sob table {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    height: 100%;
+}
+
+#design-sob table th {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #0B2A39;
+    font-family: 'eb garamond',serif;
+    font-size: 46px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+}
+
+#depil-egi {
+    display: flex;
+    position: relative;
+    text-align: justify;
+    align-items: center;
+    background-image: url(../img/depil-egi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+#depil-egi table {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    height: 100%;
+}
+
+#depil-egi table th {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #0B2A39;
+    font-family: 'eb garamond',serif;
+    font-size: 46px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+}
+
+#contato {
+    display: flex;
+    position: relative;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+#contato img {
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+
+#cont-form {
+    padding: 30px;
+    width: 30%;
+}
+#cont-form h1 {
+    font: normal normal normal 40px/1.4em 'eb garamond', serif;
+    color: #2F2E2E;
+}
+#cont-form h3 {
+    font: normal normal normal 13px/1.4em raleway,sans-serif;
+    color: #605E5E;
+}
+
+form input, textarea {
+    border: 1px solid rgba(160, 160, 159, 1);
+    color: #2F2E2E;
+    margin: 0 0 5px;
+    border-radius: 0;
+    padding: 5px;
+    min-width: 180px;
+    max-width: 980px;
+    width: 100%;
+}
+form button {
+    grid-column: 3;
+    grid-row: 1/span 1;
+    justify-self: end;
+    background-color: rgba(47, 46, 46, 1);
+    font: normal normal normal 17px/1.4em raleway,sans-serif;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 0;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(219, 184, 154, 1);
+    width: 100%;
+    height: 200px;
+}
+
+footer h1 {
+    font: normal normal normal 23px raleway,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    font: normal normal normal 13px/1.4em raleway,sans-serif;
+    color: #A0A09F;
+    margin-bottom: 20px;
+}
+
+#linha1 {
+    margin: 10px 0px;
+    background-color: #FFF;
+    height: 2px;
+    width: 100%;
+}
+#linha2 {
+    margin: 10px 0px;
+    background-color: #FFF;
+    height: 2px;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
